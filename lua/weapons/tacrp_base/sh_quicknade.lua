@@ -50,7 +50,7 @@ function SWEP:PrimeGrenade()
 
     self:SetStartPrimedGrenadeTime(ct)
     self:SetAnimLockTime(ct + (t * 0.75))
-    self:SetNextPrimaryFire(ct + (t * 1.1))
+    self:SetNextPrimaryFire(ct + (t * 1.1) + 2)
 
     self:GetOwner():DoAnimationEvent(ACT_GMOD_GESTURE_ITEM_THROW)
 
