@@ -126,6 +126,12 @@ function SWEP:ThinkSprint()
 end
 
 function SWEP:CanShootInSprint(base)
+    local owner = self:GetOwner()
+
+    if IsValid(owner) and not owner:IsRP() then 
+        return true 
+    end
+
     if !TacRP.ConVars["sprint_lower"]:GetBool() and !self:DoForceSightsBehavior() then return true end
     if base then
         return self:GetBaseValue("ShootWhileSprint")
