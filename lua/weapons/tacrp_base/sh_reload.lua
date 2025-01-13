@@ -56,6 +56,7 @@ function SWEP:Reload(force)
     end
 
     local t = self:PlayAnimation(anim, mult, true, true)
+    if not t then return end
 
     self:GetOwner():DoAnimationEvent(self:GetValue("GestureReload"))
 
@@ -105,7 +106,7 @@ function SWEP:DropMagazine()
                 mag.Model = self:GetValue("DropMagazineModel")
                 mag.ImpactType = self:GetValue("DropMagazineImpact")
                 mag:SetOwner(self:GetOwner())
-                if clip1 > 0 and TacRP.ConVars["reload_dump"]:GetBool() then
+                if clip1 > 0 and TacRP.ConVars["reload_dump"]:GetBool() and self:GetOwner():IsRP() then
                     local amt = (i == self:GetValue("DropMagazineAmount") and clip1) or dropamt
                     clip1 = clip1 - amt
 
