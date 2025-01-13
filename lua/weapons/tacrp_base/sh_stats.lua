@@ -63,7 +63,7 @@ end
 function SWEP:GetBaseValue(val)
     local stat = self:GetTable()[val]
 
-    local b = TacRP.GetBalanceMode()
+    local b = TacRP.GetBalanceMode(self:GetOwner())
     if b > 0 and self.BalanceStats != nil then
         if TacRP.BalanceDefaults[b] and TacRP.BalanceDefaults[b][val] != nil then
             stat = TacRP.BalanceDefaults[b][val]

@@ -175,7 +175,11 @@ TacRP.BALANCE_TTT = 2
 TacRP.BALANCE_PVE = 3
 TacRP.BALANCE_OLDSCHOOL = 4
 
-function TacRP.GetBalanceMode()
+function TacRP.GetBalanceMode(owner)
+    if IsValid(owner) and owner:IsPlayer() then
+        return owner:IsRP() and TacRP.BALANCE_RP or TacRP.BALANCE_SBOX
+    end
+
     local i = TacRP.ConVars["balance"]:GetInt()
     if i == TacRP.BALANCE_AUTO then
         if engine.ActiveGamemode() == "terrortown" then
@@ -296,6 +300,17 @@ hook.Add("InitPostEntity", "tacrp_shelleffect", function()
             physenv.SetPerformanceSettings({MaxVelocity = 10000})
             print("[TacRP] Increasing MaxVelocity for projectiles to behave as intended! (" .. v .. "-> 10000)")
             print("[TacRP] Disable this behavior with 'tacrp_phystweak 0'.")
+        end
+    end
+end)
+
+hook.Add("CONRED.Gamemode.OnEntered", "TacRP.CONRED", function(ply)
+    if not IsValid(ply) then return end
+
+    for _, swep in ipairs(ply:GetWeapons()) do
+        if swep.ArcticTacRP then
+            swep:InvalidateCache()
+            swep:SetBaseSettings()
         end
     end
 end)
