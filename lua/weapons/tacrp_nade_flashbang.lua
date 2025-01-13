@@ -4,6 +4,7 @@ SWEP.Base = "tacrp_base_nade"
 SWEP.Spawnable = TacRP.AreTheGrenadeAnimsReadyYet
 SWEP.IconOverride = "entities/tacrp_ammo_flashbang.png"
 
+SWEP.AdminOnly = true
 
 // names and stuff
 SWEP.PrintName = "Flashbang"

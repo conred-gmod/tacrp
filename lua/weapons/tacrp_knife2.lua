@@ -22,8 +22,8 @@ SWEP.NoStatBox = false
 
 SWEP.Slot = 0
 
-SWEP.MeleeDamage = 30
-SWEP.MeleeAttackTime = 0.35
+SWEP.MeleeDamage = 30 * .5
+SWEP.MeleeAttackTime = 0.5 -- 0.35
 SWEP.MeleeAttackMissTime = 0.45
 SWEP.MeleeDelay = 0.12
 

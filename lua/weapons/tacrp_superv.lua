@@ -81,8 +81,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 
 // "ballistics"
 
-SWEP.Damage_Max = 20
-SWEP.Damage_Min = 10
+SWEP.Damage_Max = 20 * .5
+SWEP.Damage_Min = 10 * .5
 SWEP.Range_Min = 200
 SWEP.Range_Max = 1700
 SWEP.Penetration = 4
@@ -115,7 +115,7 @@ SWEP.RPMMultBurst = 2
 SWEP.RunawayBurst = true
 SWEP.PostBurstDelay = 0.11
 
-SWEP.Spread = 0.01
+SWEP.Spread = 0.01 * 1.5
 
 SWEP.HipFireSpreadPenalty = 0.012
 
@@ -130,7 +130,7 @@ SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 0.25
 
-SWEP.RecoilKick = 1
+SWEP.RecoilKick = 1 * 3
 
 SWEP.RecoilSpreadPenalty = 0.0012
 

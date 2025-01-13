@@ -1,3 +1,5 @@
+ATT.AdminOnly = true
+
 ATT.PrintName = "Frenzy"
 ATT.Icon = Material("entities/tacrp_att_melee_spec_lunge.png", "mips smooth")
 ATT.Description = "Close the distance and overwhelm your enemies."

@@ -430,6 +430,7 @@ TacRP.LoadAtt(ATT, "tac_cornershot")
 -- #region tac_dmic
 ------------------------------
 ATT = {}
+ATT.AdminOnly = true
 
 ATT.PrintName = "Radar"
 ATT.Icon = Material("entities/tacrp_att_tac_dmic.png", "mips smooth")

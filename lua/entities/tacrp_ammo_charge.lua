@@ -7,7 +7,7 @@ ENT.RenderGroup              = RENDERGROUP_TRANSLUCENT
 ENT.PrintName                = "Door Charge (Ammo)"
 ENT.Category                 = "Tactical RP"
 
-ENT.AdminOnly = false
+ENT.AdminOnly = true
 ENT.Spawnable                = true
 ENT.Model                    = "models/weapons/tacint/door_charge-1.mdl"
 

@@ -7,7 +7,7 @@ ENT.RenderGroup              = RENDERGROUP_TRANSLUCENT
 ENT.PrintName                = "Frag Grenade (Ammo)"
 ENT.Category                 = "Tactical RP"
 
-ENT.AdminOnly = false
+ENT.AdminOnly = true
 ENT.Spawnable                = true
 ENT.Model                    = "models/weapons/tacint/frag.mdl"
 

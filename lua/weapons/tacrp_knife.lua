@@ -20,8 +20,8 @@ SWEP.WorldModel = "models/weapons/tacint/w_knife.mdl"
 
 SWEP.Slot = 0
 
-SWEP.MeleeDamage = 35
-SWEP.MeleeAttackTime = 0.4
+SWEP.MeleeDamage = 35 * .5
+SWEP.MeleeAttackTime = 0.5 -- 0.4
 SWEP.MeleeAttackMissTime = 0.5
 SWEP.MeleeDelay = 0.15
 

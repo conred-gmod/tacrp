@@ -1,3 +1,5 @@
+ATT.AdminOnly = true
+
 ATT.PrintName = "Ninja"
 ATT.Icon = Material("entities/tacrp_att_melee_spec_ninja.png", "mips smooth")
 ATT.Description = "Disrupt your enemies and strike with the element of surprise."

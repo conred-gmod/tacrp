@@ -1,5 +1,6 @@
 SWEP.Base = "tacrp_base"
 SWEP.Spawnable = true
+SWEP.AdminOnly = true
 
 AddCSLuaFile()
 

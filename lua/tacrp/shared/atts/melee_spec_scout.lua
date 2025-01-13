@@ -1,3 +1,5 @@
+ATT.AdminOnly = true
+
 ATT.PrintName = "Scout"
 ATT.FullName = "jerma tf2"
 ATT.Icon = Material("entities/tacrp_att_melee_spec_scout.png", "mips smooth")

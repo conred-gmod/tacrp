@@ -4,6 +4,8 @@ SWEP.Base = "tacrp_base_nade"
 SWEP.Spawnable = TacRP.AreTheGrenadeAnimsReadyYet
 SWEP.IconOverride = "entities/tacrp_ammo_gas.png"
 
+SWEP.AdminOnly = true
+
 // names and stuff
 SWEP.PrintName = "CS Gas Grenade"
 SWEP.Category = "Tactical RP (Special)"
