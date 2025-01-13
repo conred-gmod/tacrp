@@ -6,7 +6,6 @@ AccessorFunc(PANEL, "Slot", "Slot")
 AccessorFunc(PANEL, "IsMenu", "IsMenu")
 AccessorFunc(PANEL, "SlotLayout", "SlotLayout")
 
-local flash_end = 0
 local lock = Material("tacrp/hud/mark_lock.png", "mips smooth")
 
 function PANEL:GetInstalled()
@@ -254,14 +253,9 @@ function PANEL:PaintOver(w, h)
             surface.SetDrawColor(25, 0, 0, 240)
             TacRP.DrawCorneredBox(reasonx, ry + bump, reasonw, TacRP.SS(12), col_text_con)
             surface.SetFont("TacRP_Myriad_Pro_12")
-            if flash_end > CurTime() then
-                local c = 255 - (flash_end - CurTime()) * 255
-                surface.SetTextColor(255, c, c)
-                surface.SetDrawColor(255, c, c)
-            else
-                surface.SetTextColor(255, 255, 255)
-                surface.SetDrawColor(255, 255, 255)
-            end
+
+            surface.SetTextColor(255, 0, 0)
+            surface.SetDrawColor(255, 0, 0)
 
             surface.SetMaterial(lock)
             surface.DrawTexturedRect(rx, ry + bump, TacRP.SS(12), TacRP.SS(12))
