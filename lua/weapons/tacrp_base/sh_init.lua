@@ -53,8 +53,6 @@ function SWEP:Deploy()
 
     self:DoDeployAnimation()
 
-    self:GetOwner():DoAnimationEvent(ACT_HL2MP_GESTURE_RANGE_ATTACK_KNIFE)
-
     if CLIENT then
         self:SetupModel(true)
         self:SetupModel(false)
