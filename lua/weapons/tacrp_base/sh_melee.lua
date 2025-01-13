@@ -135,7 +135,7 @@ function SWEP:Melee(alt)
                 Damage = 0,
                 Force = 0,
                 Distance = range + 8,
-                HullSize = 0,
+                HullSize = 2,
                 Tracer = 0,
                 Dir = (tr.HitPos - start):GetNormalized(),
                 Src = start,

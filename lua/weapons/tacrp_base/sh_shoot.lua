@@ -258,6 +258,7 @@ function SWEP:PrimaryAttack()
         local hitscan = !TacRP.ConVars["physbullet"]:GetBool()
 
         local dist = 100000
+        local hull_size = (self:GetPrimaryAmmoType() == 7 or self:GetOwner():IsRP()) and 0 or 1
 
         -- If the bullet is going to hit something very close in front, use hitscan bullets instead
         -- This uses the aim direction without random spread, which may result in hitscan bullets in distances where it shouldn't be.
@@ -312,7 +313,7 @@ function SWEP:PrimaryAttack()
                         Spread = Vector(),
                         IgnoreEntity = self:GetOwner():GetVehicle(),
                         Distance = dist,
-                        HullSize = self:IsShotgun() and TacRP.ShotgunHullSize or 0,
+                        HullSize = self:IsShotgun() and TacRP.ShotgunHullSize or hull_size,
                         Callback = function(att, btr, dmg)
                             local range = (btr.HitPos - btr.StartPos):Length()
 
@@ -349,6 +350,7 @@ function SWEP:PrimaryAttack()
                 Spread = Vector(new_spread, new_spread, 0),
                 IgnoreEntity = self:GetOwner():GetVehicle(),
                 Distance = dist,
+                HullSize = hull_size,
                 Callback = function(att, btr, dmg)
                     local range = (btr.HitPos - btr.StartPos):Length()
 
@@ -581,27 +583,6 @@ function SWEP:AfterShotFunction(tr, dmg, range, penleft, alreadypenned, forced)
         end
     end
 
-    if SERVER and IsValid(tr.Entity) and !tr.Entity.TacRP_DoorBusted
-            and doorclasses[tr.Entity:GetClass()] and self:GetValue("DoorBreach") then
-        if !tr.Entity.TacRP_BreachThreshold or CurTime() - tr.Entity.TacRP_BreachThreshold[1] > 0.1 then
-            tr.Entity.TacRP_BreachThreshold = {CurTime(), 0}
-        end
-
-        tr.Entity.TacRP_BreachThreshold[2] = tr.Entity.TacRP_BreachThreshold[2] + dmg:GetDamage()
-        if tr.Entity.TacRP_BreachThreshold[2] > (self:GetValue("DoorBreachThreshold") or 100) then
-            tr.Entity:EmitSound("ambient/materials/door_hit1.wav", 80, math.Rand(95, 105))
-            for _, otherDoor in pairs(ents.FindInSphere(tr.Entity:GetPos(), 72)) do
-                if tr.Entity != otherDoor and otherDoor:GetClass() == tr.Entity:GetClass() then
-                    local v = (otherDoor.TacRP_BreachThreshold and CurTime() - otherDoor.TacRP_BreachThreshold[1] <= 0.1) and 800 or 200
-                    TacRP.DoorBust(otherDoor, tr.Normal * v, dmg:GetAttacker())
-                    break
-                end
-            end
-            TacRP.DoorBust(tr.Entity, tr.Normal * 800, dmg:GetAttacker())
-            tr.Entity.TacRP_BreachThreshold = nil
-        end
-    end
-
     self:Penetrate(tr, range, penleft, alreadypenned)
 end
 
@@ -734,7 +715,7 @@ function SWEP:GetSpread(baseline)
     local groundtime = CurTime() - (ply.TacRP_LastOnGroundTime or 0)
     local gd = math.Clamp(!ply:IsOnGround() and 0 or groundtime / math.Clamp((ply.TacRP_LastAirDuration or 0) - 0.25, 0.1, 1.5), 0, 1) ^ 0.75
 
-    if gd < 1 and ply:GetMoveType() != MOVETYPE_NOCLIP then
+    if gd < 1 and ply:GetMoveType() != MOVETYPE_NOCLIP and ply:IsRP() then
         local v = (ply:WaterLevel() > 0 or ply:GetMoveType() == MOVETYPE_LADDER) and 0.5 or 0
         spread = spread + Lerp(gd + v, self:GetValue("MidAirSpreadPenalty"), 0)
     end
