@@ -120,7 +120,7 @@ function ENT:Think()
         dmg:SetDamagePosition(self:GetPos())
         dmg:SetDamageCustom(1024) -- immersive death
         for i, k in ipairs(ents.FindInSphere(origin, 300)) do
-            if k:IsPlayer() or k:IsNPC() or k:IsNextBot() then
+            if k:IsPlayer() and not k:IsBuild() or k:IsNPC() or k:IsNextBot() then
 
                 if k:IsPlayer() then
                     local wep = k:GetActiveWeapon()
