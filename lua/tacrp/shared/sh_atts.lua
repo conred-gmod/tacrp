@@ -193,9 +193,9 @@ function TacRP.NearBench(ply)
     return true
 end
 
-function TacRP.CanCustomize(ply, wep, att, slot, detach)
+function TacRP.CanCustomize(ply, wep, att, slot, detach, preset)
 
-    local can, reason = hook.Run("TacRP_CanCustomize", ply, wep, att, slot, detach)
+    local can, reason = hook.Run("TacRP_CanCustomize", ply, wep, att, slot, detach, preset)
     if can ~= nil then
         return can, reason
     end

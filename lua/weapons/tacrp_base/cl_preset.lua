@@ -49,7 +49,9 @@ function SWEP:LoadPreset(filename)
 
 
         if att == self.Attachments[i].Installed then continue end
-        if !TacRP.GetAttTable(att) then continue end
+        
+        local atttbl = TacRP.GetAttTable(att)
+        if !atttbl or not TacRP.CanCustomize(self:GetOwner(), self, att, nil, nil, true) then continue end
 
         self.Attachments[i].Installed = att
 

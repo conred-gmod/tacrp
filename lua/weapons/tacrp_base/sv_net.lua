@@ -34,13 +34,13 @@ function SWEP:ReceivePreset()
             local att = TacRP.Attachments_Index[attid]
             local atttbl = TacRP.GetAttTable(att)
 
-            if !atttbl then continue end
+            if !atttbl or not TacRP.CanCustomize(self:GetOwner(), self, att, nil, nil, true) then continue end
 
             if slottbl.Installed then
                 self:Detach(slot, true)
             end
 
-            self:Attach(slot, att, true, true)
+            self:Attach(slot, att, true, true, true)
 
             if atttbl.OnPresetLoad then
                 atttbl.OnPresetLoad(self)

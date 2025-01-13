@@ -1,8 +1,8 @@
-function SWEP:Attach(slot, att, silent, suppress)
+function SWEP:Attach(slot, att, silent, suppress, preset)
     local slottbl = self.Attachments[slot]
     if slottbl.Installed then return end
 
-    if !self:CanAttach(slot, att) then return end
+    if !self:CanAttach(slot, att, preset) then return end
 
     local atttbl = TacRP.GetAttTable(att)
 
@@ -144,7 +144,7 @@ function SWEP:ToggleCustomize(on)
     self:SetShouldHoldType()
 end
 
-function SWEP:CanAttach(slot, att)
+function SWEP:CanAttach(slot, att, preset)
     local atttbl = TacRP.GetAttTable(att)
 
     local slottbl = self.Attachments[slot]
@@ -171,7 +171,7 @@ function SWEP:CanAttach(slot, att)
         attcat = {attcat}
     end
 
-    if !TacRP.CanCustomize(self:GetOwner(), self, att, slot) then return false end
+    if !TacRP.CanCustomize(self:GetOwner(), self, att, slot, nil, preset) then return false end
 
     for _, c in pairs(attcat) do
         if table.HasValue(cat, c) then
