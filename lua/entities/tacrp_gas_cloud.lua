@@ -119,7 +119,7 @@ function ENT:Think()
         dmg:SetDamageForce(Vector(0, 0, 0))
         dmg:SetDamagePosition(self:GetPos())
         dmg:SetDamageCustom(1024) -- immersive death
-        for i, k in pairs(ents.FindInSphere(origin, 300)) do
+        for i, k in ipairs(ents.FindInSphere(origin, 300)) do
             if k:IsPlayer() or k:IsNPC() or k:IsNextBot() then
 
                 if k:IsPlayer() then
@@ -133,7 +133,7 @@ function ENT:Think()
                     start = origin,
                     endpos = k:EyePos() or k:WorldSpaceCenter(),
                     filter = self,
-                    mask = MASK_SOLID_BRUSHONLY
+                    mask = MASK_SOLID
                 })
                 if tr.Fraction < 1 then continue end
 
