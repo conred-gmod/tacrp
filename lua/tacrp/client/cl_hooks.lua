@@ -56,8 +56,6 @@ hook.Add("PostPlayerDraw", "TacRP_Holster", function(ply, flags)
         ang:RotateAroundAxis(ang:Up(), rot.y)
         ang:RotateAroundAxis(ang:Right(), rot.r)
 
-        debugoverlay.Axis(pos, ang, 8, FrameTime() * 2, true)
-
         model = ply.TacRP_HolsterModels[i]
         model:SetPos(pos)
         model:SetAngles(ang)
