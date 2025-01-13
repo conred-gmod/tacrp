@@ -259,14 +259,10 @@ function SWEP:DrawGrenadeHUD()
     -- description box is blocked in customize
     if self:GetCustomize() then return end
 
-    local w, h = TacRP.SS(96), TacRP.SS(128)
+    local w, h = TacRP.SS(96), TacRP.SS(164)
     local tx, ty = scrw / 2 + r + TacRP.SS(16), scrh / 2
 
     -- full name
-
-    surface.SetDrawColor(0, 0, 0, 200 * a)
-    TacRP.DrawCorneredBox(tx, ty - h * 0.5 - TacRP.SS(28), w, TacRP.SS(24), col)
-    surface.SetTextColor(255, 255, 255, a * 255)
 
     local name = TacRP:GetPhrase("quicknade." .. nade.PrintName .. ".name.full")  
 	or TacRP:GetPhrase("quicknade." .. nade.PrintName .. ".name")  
@@ -277,7 +273,13 @@ function SWEP:DrawGrenadeHUD()
     if name_w > w then
         surface.SetFont("TacRP_Myriad_Pro_14")
         name_w, name_h = surface.GetTextSize(name)
+        
+        w = name_w + TacRP.SS(12)
     end
+    surface.SetDrawColor(0, 0, 0, 200 * a)
+    TacRP.DrawCorneredBox(tx, ty - h * 0.5 - TacRP.SS(28), w, TacRP.SS(24), col)
+    surface.SetTextColor(255, 255, 255, a * 255)
+    
     surface.SetTextPos(tx + w / 2 - name_w / 2, ty - h * 0.5 - TacRP.SS(28) + TacRP.SS(12) - name_h / 2)
     surface.DrawText(name)
 
