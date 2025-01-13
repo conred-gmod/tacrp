@@ -51,11 +51,6 @@ function SWEP:Deploy()
     self:SetLoadedRounds(self:Clip1())
     self:SetCustomize(false)
 
-    self.PreviousZoom = self:GetOwner():GetCanZoom()
-    if IsValid(self:GetOwner()) and self:GetOwner():IsPlayer() then
-        self:GetOwner():SetCanZoom(false)
-    end
-
     self:DoDeployAnimation()
 
     self:GetOwner():DoAnimationEvent(ACT_HL2MP_GESTURE_RANGE_ATTACK_KNIFE)
@@ -166,10 +161,6 @@ function SWEP:Holster(wep)
                 self:RemoveCustomizeHUD()
                 self:KillModel()
             end
-        end
-
-        if self.PreviousZoom then
-            self:GetOwner():SetCanZoom(true)
         end
 
         self:ClientHolster()
