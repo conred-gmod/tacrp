@@ -172,6 +172,8 @@ end
 local mat_vignette = Material("tacrp/hud/vignette.png", "mips smooth")
 local mat_radial = Material("tacrp/grenades/radial.png", "mips smooth")
 
+local cvar_hud_conred = GetConVar("cr_hud")
+
 local rackrisetime = 0
 local lastrow = 0
 
@@ -393,8 +395,8 @@ function SWEP:DrawHUDBackground()
 
             local w = TacRP.SS(110)
             local h = TacRP.SS(40)
-            local x = ScrW() - w - TacRP.SS(8)
-            local y = ScrH() - h - TacRP.SS(8)
+            local x = ScrW() - w - TacRP.SS(4)
+            local y = ScrH() - h - TacRP.SS(4)
 
             surface.SetDrawColor(0, 0, 0, 150)
             TacRP.DrawCorneredBox(x, y, w, h, col)
@@ -595,8 +597,8 @@ function SWEP:DrawHUDBackground()
 
             local l_w = TacRP.SS(80)
             local l_h = TacRP.SS(40)
-            local l_x = TacRP.SS(8)
-            local l_y = ScrH() - l_h - TacRP.SS(8)
+            local l_x = TacRP.SS(cvar_hud_conred:GetBool() and 104 or 4)
+            local l_y = ScrH() - l_h - TacRP.SS(4)
 
             local perc = LocalPlayer():Health() / LocalPlayer():GetMaxHealth()
 
