@@ -446,7 +446,7 @@ function SWEP:CreateCustomizeHUD()
 
         local desc_box = vgui.Create("DPanel", bg)
         desc_box.PrintName = TacRP:GetPhrase("cust.description2")
-        desc_box:SetSize(TacRP.SS(172), TacRP.SS(36))
+        desc_box:SetSize(TacRP.SS(172), TacRP.SS(48))
         desc_box:SetPos(scrw - TacRP.SS(172) - airgap, stack + smallgap + tabs_h + TacRP.SS(2))
         desc_box.Paint = function(self2, w, h)
             if !IsValid(self) then return end
@@ -476,7 +476,7 @@ function SWEP:CreateCustomizeHUD()
                 surface.SetFont("TacRP_Myriad_Pro_6_Italic")
                 local tw, th = surface.GetTextSize(phrase_quote)
 				
-                surface.SetTextPos(TacRP.SS(4), TacRP.SS(34) - th)
+                surface.SetTextPos(TacRP.SS(4), TacRP.SS(46) - th)
 				
                 -- if tw > TacRP.SS(166) then
                     -- surface.SetFont("TacRP_Myriad_Pro_6_Italic")
@@ -491,7 +491,7 @@ function SWEP:CreateCustomizeHUD()
 
         local trivia_box = vgui.Create("DPanel", bg)
         trivia_box.PrintName = TacRP:GetPhrase("cust.trivia")
-        trivia_box:SetSize(TacRP.SS(172), TacRP.SS(36))
+        trivia_box:SetSize(TacRP.SS(172), TacRP.SS(48))
         trivia_box:SetPos(scrw - TacRP.SS(172) - airgap, stack + smallgap + tabs_h + TacRP.SS(2))
         trivia_box.Paint = function(self2, w, h)
             if !IsValid(self) then return end
@@ -554,7 +554,7 @@ function SWEP:CreateCustomizeHUD()
 
         local credits_box = vgui.Create("DPanel", bg)
         credits_box.PrintName = TacRP:GetPhrase("cust.credits")
-        credits_box:SetSize(TacRP.SS(172), TacRP.SS(36))
+        credits_box:SetSize(TacRP.SS(172), TacRP.SS(48))
         credits_box:SetPos(scrw - TacRP.SS(172) - airgap, stack + smallgap + tabs_h + TacRP.SS(2))
         credits_box.Paint = function(self2, w, h)
             if !IsValid(self) or !self.Credits then return end
@@ -646,7 +646,7 @@ function SWEP:CreateCustomizeHUD()
             end
         end
 
-        stack = stack + TacRP.SS(48) + smallgap
+        stack = stack + TacRP.SS(60) + smallgap
     end
 
     if !self:GetValue("NoStatBox") then
@@ -658,7 +658,7 @@ function SWEP:CreateCustomizeHUD()
 
         local group_box = vgui.Create("DPanel", bg)
         group_box.PrintName = TacRP:GetPhrase("cust.rating")
-        group_box:SetSize(TacRP.SS(164), TacRP.SS(172))
+        group_box:SetSize(TacRP.SS(164), TacRP.SS(160))
         group_box:SetPos(scrw - TacRP.SS(164) - airgap - smallgap, stack + smallgap * 2 + tabs_h)
         group_box.Paint = function(self2)
             if !IsValid(self) then return end
@@ -777,7 +777,7 @@ function SWEP:CreateCustomizeHUD()
             end
         end
 
-        local w_statbox = TacRP.SS(164)
+        local w_statbox = TacRP.SS(210)
         local x_3 = w_statbox - TacRP.SS(32)
         local x_2 = x_3 - TacRP.SS(32)
         local x_1 = x_2 - TacRP.SS(32)
@@ -956,7 +956,7 @@ function SWEP:CreateCustomizeHUD()
 
         local stat_box = vgui.Create("DPanel", bg)
         stat_box.PrintName = TacRP:GetPhrase("cust.stats")
-        stat_box:SetSize(w_statbox, TacRP.SS(172))
+        stat_box:SetSize(w_statbox, TacRP.SS(160))
         stat_box:SetPos(scrw - w_statbox - airgap - smallgap, stack + smallgap * 2 + tabs_h)
         stat_box.Paint = function(self2, w, h)
             if !IsValid(self) then return end
@@ -966,9 +966,9 @@ function SWEP:CreateCustomizeHUD()
             TacRP.DrawCorneredBox(0, 0, w, h)
 
             surface.SetDrawColor(255, 255, 255, 100)
-            --surface.DrawLine(x_1, 0, x_1, h)
-            --surface.DrawLine(x_2, 0, x_2, h)
-            --surface.DrawLine(x_3, 0, x_3, h)
+            -- surface.DrawLine(x_1, 0, x_1, h)
+            -- surface.DrawLine(x_2, 0, x_2, h)
+            -- surface.DrawLine(x_3, 0, x_3, h)
             surface.DrawLine(0, TacRP.SS(2 + 8 + 1), w, TacRP.SS(2 + 8 + 1))
 
             surface.SetFont("TacRP_Myriad_Pro_8")

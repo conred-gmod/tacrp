@@ -174,7 +174,7 @@ function PANEL:PaintOver(w, h)
         local gap = TacRP.SS(18)
         local statjump = TacRP.SS(12)
 
-        local bw, bh = TacRP.SS(160), TacRP.SS(18)
+        local bw, bh = TacRP.SS(172), TacRP.SS(18)
 
         local atttxt = TacRP:GetAttName(att, true)
         if !self.DescCache then
