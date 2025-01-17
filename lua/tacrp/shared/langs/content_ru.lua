@@ -597,7 +597,7 @@ L["att.acc_bipod.desc"] = "Foldable support that stabilizes the weapon when depl
 L["att.acc_brace.name"] = "Pistol Brace"
 L["att.acc_brace.desc"] = "Turns your pistol into a rifle. The ATF is gonna get your ass."
 
-L["att.acc_cheekrest.name.full"] = "Коженная накладка на приклад"
+L["att.acc_cheekrest.name.full"] = "Кожаная накладка на приклад"
 L["att.acc_cheekrest.name"] = "Накладка"
 L["att.acc_cheekrest.desc"] = "Stabilizes your head while aiming down sights, reducing sway."
 
