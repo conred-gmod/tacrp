@@ -440,10 +440,10 @@ L["hint.tac.cam_mode"] = "Режим камеры" -- Used for both Corner-Cam a
 L["hint.tac.load_one"] = "Загрузить один патрон"
 
 L["hint.melee_lunge"] = "Прыжок"
-L["hint.melee_step"] = "Кувырок"
+L["hint.melee_step"] = "Рывок"
 L["hint.melee_ninja.palm"] = "Удар ладонью"
 L["hint.melee_ninja.backhop"] = "Отпрыжка"
-L["hint.melee_ninja.divekick"] = "Дайв"
+L["hint.melee_ninja.divekick"] = "Удар с рывком"
 
 L["hint.medkit.self"] = "Лечить себя"
 L["hint.medkit.others"] = "Лечить других"
