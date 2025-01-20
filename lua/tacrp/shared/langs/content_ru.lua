@@ -648,9 +648,9 @@ L["att.acc_sling.name"] = "Ремень"
 L["att.acc_sling.desc"] = "Прикреплённый ремень, дабы было легче поднимать и перезаряжать оружие."
 
 -- Attachments (ammo)
-L["att.ammo_40mm_3gl.name.full"] = "40mm Кластерные гранаты"
+L["att.ammo_40mm_3gl.name.full"] = "40mm Кассетные гранаты"
 L["att.ammo_40mm_3gl.name"] = "3GL"
-L["att.ammo_40mm_3gl.desc"] = "Three weak cluster grenades, fired at once."
+L["att.ammo_40mm_3gl.desc"] = "Три слабые кассетные гранаты, выпускаемые одновременно."
 
 L["att.ammo_40mm_buck.name.full"] = "40mm Дробные гранаты"
 L["att.ammo_40mm_buck.name"] = "Дробь"
@@ -732,20 +732,20 @@ L["att.ammo_roulette.name.full"] = "Русская рулетка"
 L["att.ammo_roulette.name"] = "Рулетка"
 L["att.ammo_roulette.desc"] = "Смертельная игра на удачу. Прокрутите барабан, чтобы изменить шансы."
 
-L["att.ammo_rpg_improvised.name.full"] = "RPG-7 Improvised Warhead"
-L["att.ammo_rpg_improvised.name"] = "Improvised"
+L["att.ammo_rpg_improvised.name.full"] = "RPG-7 Импровизированная боеголовка"
+L["att.ammo_rpg_improvised.name"] = "Самоделка"
 L["att.ammo_rpg_improvised.desc"] = "Straight from the bargain bin."
 
-L["att.ammo_rpg_mortar.name.full"] = "RPG-7 Mortar Warhead"
-L["att.ammo_rpg_mortar.name"] = "Mortar"
+L["att.ammo_rpg_mortar.name.full"] = "RPG-7 Миномётная боеголовка"
+L["att.ammo_rpg_mortar.name"] = "Миномёт"
 L["att.ammo_rpg_mortar.desc"] = "A mortar with a booster stuck to it, for \"indirect fire\". Needs time to prime."
 
-L["att.ammo_rpg_ratshot.name.full"] = "RPG-7 Ratshot Warhead"
-L["att.ammo_rpg_ratshot.name"] = "Ratshot"
+L["att.ammo_rpg_ratshot.name.full"] = "RPG-7 Противокрысная боеголовка"
+L["att.ammo_rpg_ratshot.name"] = "Противокрыс."
 L["att.ammo_rpg_ratshot.desc"] = "For rodents of unacceptable size."
 
-L["att.ammo_rpg_harpoon.name.full"] = "RPG-7 Shovel Warhead"
-L["att.ammo_rpg_harpoon.name"] = "Shovel"
+L["att.ammo_rpg_harpoon.name.full"] = "RPG-7 Лопаточная боеголовка"
+L["att.ammo_rpg_harpoon.name"] = "Лопата"
 L["att.ammo_rpg_harpoon.desc"] = "Fire shovels, somehow. Either you're crazy, out of rockets, or both."
 
 L["att.ammo_shotgun_bird.name"] = "Дробинки"
@@ -755,8 +755,8 @@ L["att.ammo_shotgun_mag.name.full"] = "Картечь «Магнум»"
 L["att.ammo_shotgun_mag.name"] = "«Магнум»"
 L["att.ammo_shotgun_mag.desc"] = "High yield powder improves damage retention past point blank."
 
-L["att.ammo_shotgun_slugs.name.full"] = "Slug Shells"
-L["att.ammo_shotgun_slugs.name"] = "Slugs"
+L["att.ammo_shotgun_slugs.name.full"] = "Боевая пуля"
+L["att.ammo_shotgun_slugs.name"] = "Боевые"
 L["att.ammo_shotgun_slugs.desc"] = "Fire a single projectile for medium range shooting."
 
 L["att.ammo_shotgun_triple.name.full"] = "Triple Hit Shells"
@@ -771,7 +771,7 @@ L["att.ammo_surplus.name.full"] = "Профицитные патроны"
 L["att.ammo_surplus.name"] = "Профицитные"
 L["att.ammo_surplus.desc"] = "Unreliable old ammo, yet you keep finding them everywhere."
 
-L["att.ammo_tmj.name.full"] = "Патроны в полной цельнометаллической оболочке"
+L["att.ammo_tmj.name.full"] = "Патроны в цельнометаллической оболочке"
 L["att.ammo_tmj.name"] = "TMJ"
 L["att.ammo_tmj.desc"] = "Bullets with improved penetration capability."
 
@@ -786,27 +786,27 @@ L["att.ammo_shotgun_dragon.name.full"] = "Дыхание дракона"
 L["att.ammo_shotgun_dragon.name"] = "Дыхание"
 L["att.ammo_shotgun_dragon.desc"] = "Magnesium pellets set targets on fire, but have poor range and damage."
 
-L["att.ammo_shotgun_frag.name.full"] = "High-Explosive Fragmentation Shells"
-L["att.ammo_shotgun_frag.name"] = "Frag"
+L["att.ammo_shotgun_frag.name.full"] = "Осколочно-фугасные снаряды"
+L["att.ammo_shotgun_frag.name"] = "Фугас"
 L["att.ammo_shotgun_frag.desc"] = "Explosive slugs deal area damage, but don't expect too much from them."
 
 L["att.ammo_shotgun_breach.name.full"] = "Breaching Shells (Top-Loaded)"
 L["att.ammo_shotgun_breach.name"] = "Breach (T)"
 L["att.ammo_shotgun_breach.desc"] = "Load the first round with a specialized breaching slug."
 
-L["att.ammo_stinger_saam.name.full"] = "FIM-92 Stinger Semi-Active Missile"
-L["att.ammo_stinger_saam.name"] = "Semi-Active"
+L["att.ammo_stinger_saam.name.full"] = "FIM-92 Stinger Полуактивная ракета"
+L["att.ammo_stinger_saam.name"] = "Полуактив"
 L["att.ammo_stinger_saam.desc"] = "Powerful missiles that lock rapidly but require constant guidance."
 
-L["att.ammo_stinger_qaam.name.full"] = "FIM-92 Stinger High Agility Missile"
-L["att.ammo_stinger_qaam.name"] = "Agile"
+L["att.ammo_stinger_qaam.name.full"] = "FIM-92 Stinger Мобильная ракета"
+L["att.ammo_stinger_qaam.name"] = "Мобильность"
 L["att.ammo_stinger_qaam.desc"] = "Highly maneuverable missile with a short range and long lock time."
 
 L["att.ammo_stinger_4aam.name.full"] = "FIM-92 Stinger Quad Missiles"
 L["att.ammo_stinger_4aam.name"] = "4x"
 L["att.ammo_stinger_4aam.desc"] = "Guided cluster missiles maximize pressure to enemy pilots."
 
-L["att.ammo_stinger_apers.name.full"] = "FIM-92 Stinger Anti-Personnel Missiles"
+L["att.ammo_stinger_apers.name.full"] = "FIM-92 Stinger Противопехотные ракеты"
 L["att.ammo_stinger_apers.name"] = "Killer Bee"
 L["att.ammo_stinger_apers.desc"] = "For rodents of unacceptable agility."
 
@@ -885,7 +885,7 @@ L["att.trigger_heavy2.desc"] = "Heavy trigger that reduces mobility impact from 
 
 L["att.trigger_semi.name.full"] = "Стрелковый ударно-спусковой механизм"
 L["att.trigger_semi.name"] = "«Стрелок»"
-L["att.trigger_semi.desc"] = "Trigger that sacrfices automatic fire for precision."
+L["att.trigger_semi.desc"] = "Ударно-спусковой механизм, который жертвует автоматическим огнём ради точности."
 
 L["att.trigger_slam.name.full"] = "Без разобщителя"
 L["att.trigger_slam.name"] = "Разобщитель"
@@ -903,29 +903,29 @@ L["att.trigger_dualstage.name"] = "«Двойной»"
 L["att.trigger_dualstage.desc"] = "Trigger that reduces firerate while aiming for better control and accuracy."
 
 -- Attachments (melee_boost)
-L["att.melee_boost_all.name"] = "Level Up"
+L["att.melee_boost_all.name"] = "Опытный"
 L["att.melee_boost_all.desc"] = "Small boost to all attributes."
 
-L["att.melee_boost_str.name"] = "Bulk Up"
+L["att.melee_boost_str.name"] = "Масса"
 L["att.melee_boost_str.desc"] = "Increase Brawn significantly at the cost of other attributes."
 
-L["att.melee_boost_agi.name"] = "Catch Up"
+L["att.melee_boost_agi.name"] = "Ловкий"
 L["att.melee_boost_agi.desc"] = "Increase Dexterity significantly at the cost of other attributes."
 
-L["att.melee_boost_int.name"] = "Wise Up"
+L["att.melee_boost_int.name"] = "Поумнел"
 L["att.melee_boost_int.desc"] = "Increase Strategy significantly at the cost of other attributes."
 
 L["att.melee_boost_lifesteal.name"] = "Вампир"
 L["att.melee_boost_lifesteal.desc"] = "Восстановление здоровья посредством урона."
 
-L["att.melee_boost_momentum.name"] = "Momentum"
+L["att.melee_boost_momentum.name"] = "Инерция"
 L["att.melee_boost_momentum.desc"] = "Restore perk charge by dealing damage."
 
-L["att.melee_boost_afterimage.name"] = "Afterimage"
+L["att.melee_boost_afterimage.name"] = "Послеобраз"
 L["att.melee_boost_afterimage.desc"] = "Swing your weapon in a flash, landing the attack instantly."
 
-L["att.melee_boost_shock.name.full"] = "Shock Trooper"
-L["att.melee_boost_shock.name"] = "S. Trooper"
+L["att.melee_boost_shock.name.full"] = "Штурмовик"
+L["att.melee_boost_shock.name"] = "Штурмовик"
 L["att.melee_boost_shock.desc"] = "Reduce impact of impairing effects while weapon is held."
 
 -- Attachments (muzz)
@@ -935,31 +935,31 @@ L["att.muzz_hbar.desc"] = "Sturdy barrel with improved sway and recoil performan
 L["att.muzz_lbar.name"] = "Лёгкий ствол"
 L["att.muzz_lbar.desc"] = "Lightweight barrel more accurate and effective at long range."
 
-L["att.muzz_pistol_comp.name"] = "Compensator"
+L["att.muzz_pistol_comp.name"] = "Компенсатор"
 L["att.muzz_pistol_comp.desc"] = "Muzzle device which reduces recoil impact."
 
-L["att.muzz_supp_compact.name.full"] = "Compact Suppressor"
-L["att.muzz_supp_compact.name"] = "C. Suppressor"
+L["att.muzz_supp_compact.name.full"] = "Компактный глушитель"
+L["att.muzz_supp_compact.name"] = "«Компакт»"
 L["att.muzz_supp_compact.desc"] = "Short suppressor improving accuracy with low impact to effective range."
 
-L["att.muzz_silencer.name.full"] = "Tactical Suppressor"
-L["att.muzz_silencer.name"] = "T. Suppressor"
+L["att.muzz_silencer.name.full"] = "Тактический глушитель"
+L["att.muzz_silencer.name"] = "«Тактик»"
 L["att.muzz_silencer.desc"] = "Balanced suppressor that reduces recoil and effective range."
 
-L["att.muzz_supp_weighted.name.full"] = "Weighted Suppressor"
-L["att.muzz_supp_weighted.name"] = "W. Suppressor"
+L["att.muzz_supp_weighted.name.full"] = "Утяжелённый глушитель"
+L["att.muzz_supp_weighted.name"] = "«Вес»"
 L["att.muzz_supp_weighted.desc"] = "Heavy suppressor with superior ballistics but worse handling."
 
-L["att.muzz_brake_aggressor.name.full"] = "Aggressor Brake"
-L["att.muzz_brake_aggressor.name"] = "A. Brake"
+L["att.muzz_brake_aggressor.name.full"] = "Тормоз агрессора"
+L["att.muzz_brake_aggressor.name"] = "«Агрессия»"
 L["att.muzz_brake_aggressor.desc"] = "Muzzle brake designed to redirect vented gases away from the shooter."
 
 L["att.muzz_brake_breaching.name.full"] = "Breaching Brake"
 L["att.muzz_brake_breaching.name"] = "B. Brake"
 L["att.muzz_brake_breaching.desc"] = "Spiked muzzle brake designed for close combat."
 
-L["att.muzz_brake_concussive.name.full"] = "Concussive Brake"
-L["att.muzz_brake_concussive.name"] = "C. Brake"
+L["att.muzz_brake_concussive.name.full"] = "Ударный тормоз"
+L["att.muzz_brake_concussive.name"] = "«Ударник»"
 L["att.muzz_brake_concussive.desc"] = "Viciously loud, uncomfortable muzzle brake for extreme recoil control."
 
 -- Attachments (optic_tac)
@@ -980,7 +980,7 @@ L["att.optic_holographic.name"] = "Голограф."
 L["att.optic_holographic.desc"] = "Квадратенький прицел для помощи в прицеливании с близкого расстояния."
 
 L["att.optic_irons.name.full"] = "Механический прицел"
-L["att.optic_irons.name"] = "Мех. прицел"
+L["att.optic_irons.name"] = "Мушка"
 L["att.optic_irons.desc"] = "Базовый прицел для дополнительной мобильности."
 
 L["att.optic_irons_sniper.desc"] = "Replace default scope for faster aim and better mobility."
@@ -1045,22 +1045,22 @@ L["att.tac_thermal.desc"] = "Отображает распределение т�
 
 -- Attachments (perk)
 L["att.perk_aim.name"] = "Коуш"
-L["att.perk_aim.desc"] = "Даёт доп. приближение в прицеле, делая прицельную стрельбу проще."
+L["att.perk_aim.desc"] = "Увеличивает прицел и облегчает стрельбу, когда вы прицеливаетесь."
 
 L["att.perk_blindfire.name.full"] = "Точечный стрелок"
 L["att.perk_blindfire.desc"] = "Улучшает слепую стрельбу и выглядывание."
 
 L["att.perk_hipfire.name"] = "Рэмбо"
-L["att.perk_hipfire.desc"] = "Повышает точность оружия при стрельбе от бедра."
+L["att.perk_hipfire.desc"] = "Повышает точность стрельбы без прицеливания."
 
-L["att.perk_melee.name"] = "Сокрушаемость"
-L["att.perk_melee.desc"] = "Повышает урон в ближнем бою, а также замедляет поражённые цели."
+L["att.perk_melee.name"] = "Сокрушаемый"
+L["att.perk_melee.desc"] = "Увеличивает урон в ближнем бою и замедляет целей при ударе."
 
 L["att.perk_reload.name"] = "Быстрогруз"
 L["att.perk_reload.desc"] = "Повышает скорость перезарядки."
 
 L["att.perk_speed.name"] = "Ловкость"
-L["att.perk_speed.desc"] = "Повышает мобильность оружия, особенно во время перезарядки."
+L["att.perk_speed.desc"] = "Повышает мобильность, особенно при перезарядке."
 
 L["att.perk_throw.name"] = "Гренадер"
 L["att.perk_throw.desc"] = "Улучшает бросок гранат. И добавляет возможность кидаться камнями."
@@ -1335,45 +1335,45 @@ L["wep." .. w .. ".trivia.manufacturer"] = "Heckler & Koch"
 L["wep." .. w .. ".credits"] = "Модель: End Of Days \nТекстуры: Copkiller, Twinke Masta & Wangchung \nАнимации: Tactical Intervention"
 
 -- Attachments (interops)
-L["att.ammo_star15_300blk.name.full"] = "ST AR-15 .300 AC Blackout Mod Kit"
+L["att.ammo_star15_300blk.name.full"] = "Конвертация ST AR-15 .300 AC Blackout"
 L["att.ammo_star15_300blk.name"] = ".300 BLK"
-L["att.ammo_star15_300blk.desc"] = "Modification to load lower velocity bullets with better CQB potential."
+L["att.ammo_star15_300blk.desc"] = "Модификация для заряжания пуль с меньшей скоростью пули и лучшим потенциалом в CQB."
 
-L["att.ammo_star15_50beo.name.full"] = "ST AR-15 .50 Beowulf Mod Kit"
+L["att.ammo_star15_50beo.name.full"] = "Конвертация ST AR-15 .50 Beowulf"
 L["att.ammo_star15_50beo.name"] = ".50 BEO"
-L["att.ammo_star15_50beo.desc"] = "Modification to load low capacity, high power magnum rounds."
+L["att.ammo_star15_50beo.desc"] = "Модификация для заряжания патронами «Магнум» малой ёмкости и большой мощности."
 
-L["att.bolt_af2011_alt.name.full"] = "AF2011-A1 Alternating Bolt"
-L["att.bolt_af2011_alt.name"] = "Alternating"
-L["att.bolt_af2011_alt.desc"] = "Malicious interpretation of the concept of \"double-stacked magazines\"."
+L["att.bolt_af2011_alt.name.full"] = "Чередованный затвор AF2011-A1"
+L["att.bolt_af2011_alt.name"] = "«Чередование»"
+L["att.bolt_af2011_alt.desc"] = "Злодейская интерпретация концепции \"приваренных магазинов\"."
 
 L["att.muzz_comp_io_m14.desc"] = "att.muzz_pistol_comp.desc"
 
-L["att.muzz_tec9_shroud.name.full"] = "TEC-9 Barrel Shroud"
-L["att.muzz_tec9_shroud.name"] = "Shroud"
+L["att.muzz_tec9_shroud.name.full"] = "Кожух ствола TEC-9"
+L["att.muzz_tec9_shroud.name"] = "Кожух"
 L["att.muzz_tec9_shroud.desc"] = "Barrel extension improving performance at range."
 
-L["att.optic_ak_pso1.name.full"] = "PSO-1 Scope"
-L["att.optic_ak_pso1.name"] = "PSO-1"
-L["att.optic_ak_pso1.desc"] = "Russian dovetail scope with medium-long range magnification."
+L["att.optic_ak_pso1.name.full"] = "Оптика ПСО-1"
+L["att.optic_ak_pso1.name"] = "ПСО-1"
+L["att.optic_ak_pso1.desc"] = "Российский оптический прицел типа «Ласточкин хвост» со средне-дальнобойным увеличением."
 
-L["att.optic_ar_colt.name.full"] = "Colt 3x20 Scope"
+L["att.optic_ar_colt.name.full"] = "Прицел Colt 3x20"
 L["att.optic_ar_colt.name"] = "Colt 3x20"
-L["att.optic_ar_colt.desc"] = "Low power optical scope mounted on AR pattern carry handles."
+L["att.optic_ar_colt.desc"] = "Маломасштабный оптический прицел, установленный на ручках для переноски AR."
 
-L["att.optic_k98_zf41.name.full"] = "Zeiss 6x38 Scope"
-L["att.optic_k98_zf41.name"] = "Zeiss"
-L["att.optic_k98_zf41.desc"] = "Medium-power sniper scope made specially for the Kar98k."
+L["att.optic_k98_zf41.name.full"] = "Оптика Zeiss 6x38"
+L["att.optic_k98_zf41.name"] = "Цейсс"
+L["att.optic_k98_zf41.desc"] = "Снайперский прицел средней мощности, созданный специально для Kar98k."
 
-L["att.optic_xm8_4x.name.full"] = "XM8 Integrated Scope (4x)"
+L["att.optic_xm8_4x.name.full"] = "Интегрированный прицел XM8(4x)"
 L["att.optic_xm8_4x.name"] = "4x"
 L["att.optic_xm8_4x.desc"] = "Medium range zoom setting with ACOG reticle."
 
-L["att.optic_xm8_6x.name.full"] = "XM8 Integrated Scope (6x)"
+L["att.optic_xm8_6x.name.full"] = "Интегрированный прицел XM8(6x)"
 L["att.optic_xm8_6x.name"] = "6x"
 L["att.optic_xm8_6x.desc"] = "Medium-long range zoom setting with Short Dot reticle."
 
-L["att.optic_xm8_8x.name.full"] = "XM8 Integrated Scope (8x)"
+L["att.optic_xm8_8x.name.full"] = "Интегрированный прицел XM8(8x)"
 L["att.optic_xm8_8x.name"] = "8x"
 L["att.optic_xm8_8x.desc"] = "Long range zoom setting with sniper reticle."
 
@@ -1655,28 +1655,28 @@ L["wep." .. w .. ".trivia.manufacturer"] = "Walther"
 L["wep." .. w .. ".credits"] = "Ассеты: Alliance of Valiant Arms \nOriginally ported to CS 1.6 by GR_Lucia \nЗвуки: HK & Vunsunta \nАнимации: Tactical Intervention, ред. speedonerd"
 
 -- Attachments (sd)
-L["att.trigger_dual_uzis_semi.name.full"] = "att.trigger_semi.name.full"
-L["att.trigger_dual_uzis_semi.name"] = "att.trigger_semi.name"
-L["att.trigger_dual_uzis_semi.desc"] = "att.trigger_semi.desc"
+L["att.trigger_dual_uzis_semi.name.full"] = "Стрелковый ударно-спусковой механизм"
+L["att.trigger_dual_uzis_semi.name"] = "«Стрелок»"
+L["att.trigger_dual_uzis_semi.desc"] = "Ударно-спусковой механизм, который жертвует автоматическим огнём ради точности"
 
-L["att.tac_1858_spin.name.full"] = "Revolver Spin"
-L["att.tac_1858_spin.name"] = "Spin"
+L["att.tac_1858_spin.name.full"] = "Прокрутка револьвера"
+L["att.tac_1858_spin.name"] = "Прокрутка"
 L["att.tac_1858_spin.desc"] = "wheeeeeeeeeeeee"
 
-L["att.optic_m1_scope.name.full"] = "M1 Carbine 3.5x24 Scope"
-L["att.optic_m1_scope.name"] = "3.5x Scope"
-L["att.optic_m1_scope.desc"] = "Optical scope with specialized mount for the M1 Carbine."
+L["att.optic_m1_scope.name.full"] = "Оптика для M1 Carbine 3.5x24"
+L["att.optic_m1_scope.name"] = "Прицел 3.5x"
+L["att.optic_m1_scope.desc"] = "Оптический прицел со специальным креплением для Carbine M1."
 
-L["att.optic_delisle_scope.name.full"] = "De Lisle 4x24 Scope"
-L["att.optic_delisle_scope.name"] = "4x Scope"
-L["att.optic_delisle_scope.desc"] = "Optical scope with specialized mount for the De Lisle."
+L["att.optic_delisle_scope.name.full"] = "Оптика для De Lisle 4x24"
+L["att.optic_delisle_scope.name"] = "Прицел 4x"
+L["att.optic_delisle_scope.desc"] = "Оптический прицел со специальным креплением для De Lisle."
 
-L["att.muzz_supp_assassin.name.full"] = "Assassin Suppressor"
-L["att.muzz_supp_assassin.name"] = "A. Suppressor"
+L["att.muzz_supp_assassin.name.full"] = "Глушитель убийцы"
+L["att.muzz_supp_assassin.name"] = "«Убийца»"
 L["att.muzz_supp_assassin.desc"] = "Extended suppressor improving range significantly at cost of stability."
 
-L["att.ammo_gyrojet_ratshot.name.full"] = "13mm Ratshot Mini-Rockets"
-L["att.ammo_gyrojet_ratshot.name"] = "Ratshot"
+L["att.ammo_gyrojet_ratshot.name.full"] = "13mm Противокрысные мини-ракеты"
+L["att.ammo_gyrojet_ratshot.name"] = "Противокрыс."
 L["att.ammo_gyrojet_ratshot.desc"] = "Proximity fuse fragmentation mini-rockets. For rodents of unexpected size."
 
 L["att.ammo_gyrojet_pipe.name.full"] = "15mm Boosted Pipe Grenades"
@@ -1921,31 +1921,31 @@ L["wep." .. w .. ".credits"] = "Модель: Rafael De Jongh, Ettubrutesbro \n�
 -- Attachments (ak)
 L["att.acc_ak74_poly.name.full"] = "Облегчённая конструкция AK-74"
 L["att.acc_ak74_poly.name"] = "Конструкция"
-L["att.acc_ak74_poly.desc"] = "Paratrooper configuration for increased handling and mobility."
+L["att.acc_ak74_poly.desc"] = "Конфигурация парашютиста для повышения эргономика и мобильности."
 
 L["att.ammo_ak12_762.name.full"] = "Конвертация 7.62×39mm"
 L["att.ammo_ak12_762.name"] = "7.62×39mm"
-L["att.ammo_ak12_762.desc"] = "Load a more powerful cartridge, increasing both damage and recoil."
+L["att.ammo_ak12_762.desc"] = "Более мощный патрон, который увеличивает как урон, так и отдачу."
 
 L["att.muzz_ak_booster.name.full"] = "Дульный ускоритель 6П26"
-L["att.muzz_ak_booster.name"] = "Ускор. 6П26"
-L["att.muzz_ak_booster.desc"] = "AK pattern muzzle device that increases rate of fire."
+L["att.muzz_ak_booster.name"] = "6П26"
+L["att.muzz_ak_booster.desc"] = "Надульное устройство для платформы АК, увеличивающее скорострельность."
 
 L["att.muzz_ak_comp.name.full"] = "Компенсатор 6П20"
-L["att.muzz_ak_comp.name"] = "Компенс. 6П20"
-L["att.muzz_ak_comp.desc"] = "AK pattern muzzle device that straightens recoil."
+L["att.muzz_ak_comp.name"] = "6П20"
+L["att.muzz_ak_comp.desc"] = "Надульное устройство для платформы АК, уменьшающее отдачу."
 
-L["att.muzz_supp_pbs.name.full"] = "ПБС-5 Suppressor"
+L["att.muzz_supp_pbs.name.full"] = "Глушитель ПБС-5"
 L["att.muzz_supp_pbs.name"] = "ПБС-5"
-L["att.muzz_supp_pbs.desc"] = "AK pattern suppressor improving recoil stability at cost of accuracy."
+L["att.muzz_supp_pbs.desc"] = "Глушитель для платформы АК, повышающий стабильность отдачи за счёт снижения точности."
 
 L["att.optic_ak_kobra.name.full"] = "Прицел «Кобра»"
 L["att.optic_ak_kobra.name"] = "«Кобра»"
-L["att.optic_ak_kobra.desc"] = "Russian dovetail reflex sight."
+L["att.optic_ak_kobra.desc"] = "Русский рефлекторный прицел типа «Ласточкин хвост»."
 
-L["att.optic_galil.name.full"] = "Nimrod 6x40 Scope"
+L["att.optic_galil.name.full"] = "Оптика Nimrod 6x40"
 L["att.optic_galil.name"] = "Nimrod 6x40"
-L["att.optic_galil.desc"] = "Sniper optic designed to be mounted onto Galil rifles."
+L["att.optic_galil.desc"] = "Снайперская оптика для установки на винтовки Galil."
 
 ///////////////////// -- [[ Heavy Duty ]] --
 -- Weapons
@@ -2135,7 +2135,7 @@ L["wep." .. w .. ".name"] = "Calico"
 L["wep." .. w .. ".desc"] = "Странный пистолет, похожий на космическую пушку с большим шнековым магазином."
 L["wep." .. w .. ".desc.quote"] = "\"У меня больше заложников, чем у тебя было ужинов!\""
 L["wep." .. w .. ".trivia.manufacturer"] = "Calico Light Weapons Systems"
-L["wep." .. w .. ".credits"] = "Ассеты: Alliance of Valiant Arms \nRail and foregrip from Warface \nЗвуки: A.V.A., Warface, speedonerd \nАнимации: Tactical Intervention"
+L["wep." .. w .. ".credits"] = "Ассеты: Alliance of Valiant Arms \nПланка и цевьё: Warface \nЗвуки: A.V.A., Warface, speedonerd \nАнимации: Tactical Intervention"
 
 w = ws .. "dual_satana"
 L["wep." .. w .. ".name"] = "Dueling Satans"
@@ -2149,7 +2149,7 @@ L["wep." .. w .. ".name"] = "F2000"
 L["wep." .. w .. ".desc"] = "Карабин булл-пап с высокой скорострельностью , но обладает нестабильной отдачей из-за необычной эргономики. Оснащён 1,6-кратным прицелом."
 L["wep." .. w .. ".desc.quote"] = "\"Ты только что сказал, что я должен выиграть это для Гиппера?\""
 L["wep." .. w .. ".trivia.manufacturer"] = "FN Herstal"
-L["wep." .. w .. ".credits"] = "Ассеты: DICE (Battlefield 3) \nМодель прицела из CSO2 \nЗвуки: CSO2 & Vunsunta \nАнимации: Tactical Intervention, ред. speedonerd"
+L["wep." .. w .. ".credits"] = "Ассеты: DICE (Battlefield 3) \nМодель прицела: CSO2 \nЗвуки: CSO2 & Vunsunta \nАнимации: Tactical Intervention, ред. speedonerd"
 
 w = ws .. "fal"
 L["wep." .. w .. ".name.full"] = "FN FAL"
@@ -2172,7 +2172,7 @@ L["wep." .. w .. ".name"] = "HK CAWS"
 L["wep." .. w .. ".desc"] = "Прототип автоматического дробовика булл-пап с высокой точностью и бронепробитием.\nОснащён оптикой 1.5-кратности."
 L["wep." .. w .. ".desc.quote"] = "\"Твоя поездка окончена, шавка. Пора умирать.\""
 L["wep." .. w .. ".trivia.manufacturer"] = "Heckler & Koch"
-L["wep." .. w .. ".credits"] = "Ассеты: Millenia \nPorted from Fallout: New Vegas by speedonerd \nАнимации: Tactical Intervention, ред. speedonerd"
+L["wep." .. w .. ".credits"] = "Ассеты: Millenia \nПортировано: Fallout: New Vegas от speedonerd \nАнимации: Tactical Intervention, ред. speedonerd"
 
 w = ws .. "howa"
 L["wep." .. w .. ".name.full"] = "Howa Type 64"
@@ -2180,7 +2180,7 @@ L["wep." .. w .. ".name"] = "Type 64"
 L["wep." .. w .. ".desc"] = "Японская боевая винтовка, стреляющая специальным патроном с уменьшенной отдачей. Обладает значительным весом, но удобен в использовании."
 L["wep." .. w .. ".desc.quote"] = "\"Прист-21, это Тревор. Приготовиться к стрельбе. Убить Виверну.\""
 L["wep." .. w .. ".trivia.manufacturer"] = "Howa Machinery"
-L["wep." .. w .. ".credits"] = "Ассеты: Michau, ported from Fallout: New Vegas by 8sianDude \nЗвуки: speedonerd \nАнимации: Tactical Intervention"
+L["wep." .. w .. ".credits"] = "Ассеты: Michau, портировано из Fallout: New Vegas от 8sianDude \nЗвуки: speedonerd \nАнимации: Tactical Intervention"
 
 w = ws .. "hushpup"
 L["wep." .. w .. ".name.full"] = "SW Mk 22 Mod 0"
@@ -2372,7 +2372,7 @@ L["wep." .. w .. ".name"] = "SPAS-15"
 L["wep." .. w .. ".desc"] = "Тяжелый магазинный преемник культового двухрежимного дробовика. Низкая отдача, но не очень высокая точность."
 L["wep." .. w .. ".desc.quote"] = "\"Мы подождём. Мы подождём и посмотрим, что он сможет обнаружить.\""
 L["wep." .. w .. ".trivia.manufacturer"] = "Luigi Franchi S.p.A."
-L["wep." .. w .. ".credits"] = "Ассеты: filosoma, ported from Fallout: New Vegas by Kindred Flame \nЗвуки: Navaro, SevenZero & Magmacow \nАнимации: Tactical Intervention & speedonerd"
+L["wep." .. w .. ".credits"] = "Ассеты: filosoma, из Fallout: New Vegas от Kindred Flame \nЗвуки: Navaro, SevenZero & Magmacow \nАнимации: Tactical Intervention & speedonerd"
 
 w = ws .. "winchester"
 L["wep." .. w .. ".name.full"] = "Winchester M1873"
@@ -2385,11 +2385,11 @@ L["wep." .. w .. ".credits"] = "Модель: Enron \nТекстуры: !NC!Furi
 -- Attachments (exoops)
 L["att.ammo_modular_65gren.name.full"] = "Конвертация ACR 6.5mm Grendel"
 L["att.ammo_modular_65gren.name"] = "Grendel"
-L["att.ammo_modular_65gren.desc"] = "Modification to load ammo with improved ballistics."
+L["att.ammo_modular_65gren.desc"] = "Модификация для загрузки боеприпасов с улучшенной баллистикой."
 
 L["att.ammo_modular_450bm.name.full"] = "Конвертация ACR .450 Bushmaster"
 L["att.ammo_modular_450bm.name"] = "Bushmaster"
-L["att.ammo_modular_450bm.desc"] = "Modification to load low capacity, high power magnum rounds."
+L["att.ammo_modular_450bm.desc"] = "Модификация для заряжания патронами «Магнум» малой емкости и большой мощности."
 
 L["att.bolt_spas15_pump.name.full"] = "Franchi SPAS-15 помповый режим"
 L["att.bolt_spas15_pump.name"] = "Помповый"
@@ -2403,13 +2403,13 @@ L["att.optic_howa_scope.name.full"] = "Howa Type 64 2.2x прицел"
 L["att.optic_howa_scope.name"] = "Прицел"
 L["att.optic_howa_scope.desc"] = "Proprietary marksman scope for the Type 64."
 
-L["att.optic_g36c_scope.name.full"] = "G36C интегрированный прицел"
+L["att.optic_g36c_scope.name.full"] = "Интегрированный прицел G36C"
 L["att.optic_g36c_scope.name"] = "Инт. прицел"
-L["att.optic_g36c_scope.desc"] = "Low power integrated scope and carry handle for the G36C."
+L["att.optic_g36c_scope.desc"] = "Маломощный встроенный оптический прицел и ручка переноски для G36C."
 
 L["att.ammo_scout_376.name.full"] = "Конвертация Scout .376 Steyr"
 L["att.ammo_scout_376.name"] = ".376 Steyr"
-L["att.ammo_scout_376.desc"] = "Modification to load a unique high-power hunting cartridge."
+L["att.ammo_scout_376.desc"] = "Модификация для заряжания уникального охотничьего патрона большой мощности."
 
 ///////////////////// -- [[ Scavenger's Spoils ]] --
 -- Weapons
