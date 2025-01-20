@@ -169,7 +169,7 @@ function SWEP:DrawHints()
     local a = TacRP.ConVars["hints_always"]:GetBool() and 1 or math.Clamp(((self.LastHintLife + 4) - CurTime()) / 1, 0, 1)
     if a <= 0 then return end
 
-    local font = TacRP.ConVars["hints_altfont"]:GetBool() and "TacRP_Myriad_Pro_8" or "TacRP_HD44780A00_5x8_5"
+    local font = "TacRP_Myriad_Pro_8"
 
     local caps = self:GetHintCapabilities()
 
