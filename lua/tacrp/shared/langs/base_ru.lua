@@ -197,7 +197,7 @@ L["stat.meleeperkstr"] = "Сила"
 L["stat.meleeperkstr.desc"] = "Влияет на особенности и приёмы ближнего боя.\nВлияет на урон от перков и отбрасывание."
 L["stat.meleeperkagi"] = "Ловкость"
 L["stat.meleeperkagi.desc"] = "Влияет на особенности и приёмы ближнего боя.\nВлияет на передвижение при перке и интервал атаки."
-L["stat.meleeperkint"] = "Стратегия"
+L["stat.meleeperkint"] = "Тактика"
 L["stat.meleeperkint.desc"] = "Влияет на особенности и приёмы ближнего боя.\nВлияет на скорость возобновления перка и силу броска."
 
 L["rating.meleeattacktime"] = "Спешка"
