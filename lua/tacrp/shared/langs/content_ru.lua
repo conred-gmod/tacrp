@@ -1676,7 +1676,7 @@ L["att.optic_delisle_scope.desc"] = "Оптический прицел со сп
 
 L["att.muzz_supp_assassin.name.full"] = "Глушитель убийцы"
 L["att.muzz_supp_assassin.name"] = "«Убийца»"
-L["att.muzz_supp_assassin.desc"] = "Удленённый глушитель, значительно увеличивающий дальность действия за счёт стабильности."
+L["att.muzz_supp_assassin.desc"] = "Удлинённый глушитель, значительно увеличивающий дальность действия за счёт стабильности."
 
 L["att.ammo_gyrojet_ratshot.name.full"] = "13mm Противокрысные мини-ракеты"
 L["att.ammo_gyrojet_ratshot.name"] = "Противокрыс."
