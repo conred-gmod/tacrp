@@ -380,7 +380,7 @@ local bf_slices3 = {
 local lastmenu_bf
 local bf_suicidelock
 local bf_funnyline
-local bf_lines = {
+local bf_lines = { -- Переведено: Svorcer <76561199157702911>
     "Давай посмотрим, будет ли меня волновать.",
     "Почему просто не бинд на kill.",
     "Но у тебя есть ещё ради чего жить!",
