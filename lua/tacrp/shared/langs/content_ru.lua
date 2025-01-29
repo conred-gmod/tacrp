@@ -682,7 +682,7 @@ L["att.ammo_40mm_lvg.desc"] = "Low velocity grenade made to incapacitate targets
 
 L["att.ammo_40mm_ratshot.name.full"] = "40mm Противокрысиные гранаты"
 L["att.ammo_40mm_ratshot.name"] = "Противокрыс."
-L["att.ammo_40mm_ratshot.desc"] = "For rodents of unbelievable size."
+L["att.ammo_40mm_ratshot.desc"] = "Для грызунов невоображаемых размеров."
 
 L["att.ammo_40mm_smoke.name.full"] = "40mm Дымовые гранаты"
 L["att.ammo_40mm_smoke.name"] = "Дым. завеса"
@@ -754,14 +754,14 @@ L["att.ammo_rpg_mortar.desc"] = "A mortar with a booster stuck to it, for \"indi
 
 L["att.ammo_rpg_ratshot.name.full"] = "RPG-7 Противокрысная боеголовка"
 L["att.ammo_rpg_ratshot.name"] = "Противокрыс."
-L["att.ammo_rpg_ratshot.desc"] = "For rodents of unacceptable size."
+L["att.ammo_rpg_ratshot.desc"] = "Для грызунов непредвиденных размеров."
 
 L["att.ammo_rpg_harpoon.name.full"] = "RPG-7 Лопаточная боеголовка"
 L["att.ammo_rpg_harpoon.name"] = "Лопата"
 L["att.ammo_rpg_harpoon.desc"] = "Fire shovels, somehow. Either you're crazy, out of rockets, or both."
 
 L["att.ammo_shotgun_bird.name"] = "Дробинки"
-L["att.ammo_shotgun_bird.desc"] = "Fire smaller pellets in a larger spread."
+L["att.ammo_shotgun_bird.desc"] = "Стреляйте маленькими дробинками с большим разбросом."
 
 L["att.ammo_shotgun_mag.name.full"] = "Картечь «Магнум»"
 L["att.ammo_shotgun_mag.name"] = "«Магнум»"
@@ -771,9 +771,9 @@ L["att.ammo_shotgun_slugs.name.full"] = "Боевая пуля"
 L["att.ammo_shotgun_slugs.name"] = "Боевые"
 L["att.ammo_shotgun_slugs.desc"] = "Стрельба одним снарядом для средней дистанции."
 
-L["att.ammo_shotgun_triple.name.full"] = "Triple Hit Shells"
-L["att.ammo_shotgun_triple.name"] = "Triple Hit"
-L["att.ammo_shotgun_triple.desc"] = "Fire three projectiles for more accuracy."
+L["att.ammo_shotgun_triple.name.full"] = "Снаряд «Тройной удар»"
+L["att.ammo_shotgun_triple.name"] = "«Тройной удар»"
+L["att.ammo_shotgun_triple.desc"] = "Выстреливает три снаряда с большей точностью."
 
 L["att.ammo_subsonic.name.full"] = "Дозвуковые пули"
 L["att.ammo_subsonic.name"] = "Дозвуковые"
@@ -789,10 +789,10 @@ L["att.ammo_tmj.desc"] = "Пули с улучшенной пробивной с
 
 L["att.ammo_buckshotroulette.name.full"] = "Buckshot Roulette"
 L["att.ammo_buckshotroulette.name"] = "B. Roulette"
-L["att.ammo_buckshotroulette.desc"] = "The shells enter the chamber in an unknown order."
+L["att.ammo_buckshotroulette.desc"] = "Пули заряжаются в патронник в неизвестном порядке."
 
 L["att.ammo_shotgun_minishell.name.full"] = "Минипули"
-L["att.ammo_shotgun_minishell.desc"] = "Short shells increase ammo capacity but don't hit as hard."
+L["att.ammo_shotgun_minishell.desc"] = "Из-за меньшей структуры можно брать больше патронов, но бьёт не так уж и сильно."
 
 L["att.ammo_shotgun_dragon.name.full"] = "Дыхание дракона"
 L["att.ammo_shotgun_dragon.name"] = "Дыхание"
@@ -800,7 +800,7 @@ L["att.ammo_shotgun_dragon.desc"] = "Magnesium pellets set targets on fire, but 
 
 L["att.ammo_shotgun_frag.name.full"] = "Осколочно-фугасные снаряды"
 L["att.ammo_shotgun_frag.name"] = "Фугас"
-L["att.ammo_shotgun_frag.desc"] = "Explosive slugs deal area damage, but don't expect too much from them."
+L["att.ammo_shotgun_frag.desc"] = "Взрывоопасные боевые пули, наносящие урон по площади, но не стоит ожидать от них большего."
 
 L["att.ammo_shotgun_breach.name.full"] = "Breaching Shells (Top-Loaded)"
 L["att.ammo_shotgun_breach.name"] = "Breach (T)"
@@ -938,7 +938,7 @@ L["att.melee_boost_afterimage.desc"] = "Swing your weapon in a flash, landing th
 
 L["att.melee_boost_shock.name.full"] = "Штурмовик"
 L["att.melee_boost_shock.name"] = "Штурмовик"
-L["att.melee_boost_shock.desc"] = "Reduce impact of impairing effects while weapon is held."
+L["att.melee_boost_shock.desc"] = "Уменьшение воздействующих эффектов при удержании оружия."
 
 -- Attachments (muzz)
 L["att.muzz_hbar.name"] = "Тяжёлый ствол"
@@ -1684,11 +1684,11 @@ L["att.optic_delisle_scope.desc"] = "Оптический прицел со сп
 
 L["att.muzz_supp_assassin.name.full"] = "Глушитель убийцы"
 L["att.muzz_supp_assassin.name"] = "«Убийца»"
-L["att.muzz_supp_assassin.desc"] = "Удлинённый глушитель, значительно увеличивающий дальность действия за счёт стабильности."
+L["att.muzz_supp_assassin.desc"] = "Удленённый глушитель, значительно увеличивающий дальность действия за счёт стабильности."
 
 L["att.ammo_gyrojet_ratshot.name.full"] = "13mm Противокрысные мини-ракеты"
 L["att.ammo_gyrojet_ratshot.name"] = "Противокрыс."
-L["att.ammo_gyrojet_ratshot.desc"] = "Proximity fuse fragmentation mini-rockets. For rodents of unexpected size."
+L["att.ammo_gyrojet_ratshot.desc"] = "Proximity fuse fragmentation mini-rockets. Для грызунов неожидаемых размеров."
 
 L["att.ammo_gyrojet_pipe.name.full"] = "15mm Boosted Pipe Grenades"
 L["att.ammo_gyrojet_pipe.name"] = "Pipe"
@@ -1703,12 +1703,12 @@ L["att.ammo_gyrojet_he.name"] = "HE"
 L["att.ammo_gyrojet_he.desc"] = "Projectile with a small explosive charge instead of a bullet head."
 
 L["att.ammo_1858_45colt.name.full"] = "Конвертация Remington 1858 .45 Colt"
-L["att.ammo_1858_45colt.name"] = ".45 Colt"
-L["att.ammo_1858_45colt.desc"] = "Cartridge conversion firing larger, more powerful, but less reliable rounds."
+L["att.ammo_1858_45colt.name"] = ".45Colt"
+L["att.ammo_1858_45colt.desc"] = "Конвертация калибра в .45Colt для стрельбы более крупными, мощными, но менее надёжными патронами."
 
 L["att.ammo_1858_36perc.name.full"] = "Конвертация Remington 1858 .36 Caliber"
-L["att.ammo_1858_36perc.name"] = ".36 Percussion"
-L["att.ammo_1858_36perc.desc"] = "Caliber conversion firing smaller rounds with better range."
+L["att.ammo_1858_36perc.name"] = ".36Percussion"
+L["att.ammo_1858_36perc.desc"] = "Конвертация калибра в .36Percussion для стрельбы меньшими патронами с большей дальностью действия."
 
 L["att.procon.yeehaw"] = "yeeeeeeeeeeeeehawwwwwwwwww"
 

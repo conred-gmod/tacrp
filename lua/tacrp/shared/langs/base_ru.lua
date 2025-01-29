@@ -446,6 +446,7 @@ L["hint.tac.spread_gauge"] = "датчик"
 L["hint.tac.magnifier"] = "увеличитель"
 L["hint.tac.cam_mode"] = "Режим камеры" -- Used for both Corner-Cam and Thermal Imager
 L["hint.tac.load_one"] = "Загрузить один патрон"
+L["hint.tac.spin_revolver"] = "Покрутить револьвер"
 
 L["hint.melee_lunge"] = "Прыжок"
 L["hint.melee_step"] = "Рывок"
