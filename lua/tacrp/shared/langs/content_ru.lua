@@ -686,11 +686,11 @@ L["att.ammo_40mm_ratshot.desc"] = "Для грызунов невообража�
 
 L["att.ammo_40mm_smoke.name.full"] = "40mm Дымовые гранаты"
 L["att.ammo_40mm_smoke.name"] = "Дым. завеса"
-L["att.ammo_40mm_smoke.desc"] = "Grenade that produces a concealing smokescreen on impact."
+L["att.ammo_40mm_smoke.desc"] = "Граната, создающая дымовую завесу."
 
 L["att.ammo_40mm_heal.name.full"] = "40mm «Мед-дым» гранаты"
 L["att.ammo_40mm_heal.name"] = "«Мед-дым»"
-L["att.ammo_40mm_heal.desc"] = "Grenade that produces a cloud of restorative gas on impact."
+L["att.ammo_40mm_heal.desc"] = "Граната, которая создаёт облако регенеративного газа."
 
 L["att.ammo_amr_hv.name.full"] = "Высокоскоростные пули"
 L["att.ammo_amr_hv.name"] = "HV"
@@ -758,7 +758,7 @@ L["att.ammo_rpg_ratshot.desc"] = "Для грызунов непредвиден
 
 L["att.ammo_rpg_harpoon.name.full"] = "RPG-7 Лопаточная боеголовка"
 L["att.ammo_rpg_harpoon.name"] = "Лопата"
-L["att.ammo_rpg_harpoon.desc"] = "Fire shovels, somehow. Either you're crazy, out of rockets, or both."
+L["att.ammo_rpg_harpoon.desc"] = "Стреляет лопатами, как-то. Либо вы сошли с ума, либо у вас закончились ракеты, либо и то, и другое."
 
 L["att.ammo_shotgun_bird.name"] = "Дробинки"
 L["att.ammo_shotgun_bird.desc"] = "Стреляйте маленькими дробинками с большим разбросом."
