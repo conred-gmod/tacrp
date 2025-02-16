@@ -706,11 +706,11 @@ L["att.ammo_amr_saphe.desc"] = "Explosive rounds effective against both armor an
 
 L["att.ammo_ks23_flashbang.name.full"] = "Светошумовой снаряд \"Звезда\""
 L["att.ammo_ks23_flashbang.name"] = "Звезда"
-L["att.ammo_ks23_flashbang.desc"] = "Flashbang shells that stun enemies, right from the barrel."
+L["att.ammo_ks23_flashbang.desc"] = "Светошумовые снаряды оглушают врагов, прямо из ствола."
 
 L["att.ammo_ks23_flashbang_top.name.full"] = "Светошумовой снаряд \"Звезда\" (Первая)"
 L["att.ammo_ks23_flashbang_top.name"] = "Звезда (Перв.)"
-L["att.ammo_ks23_flashbang_top.desc"] = "Load the first round with flash rounds and the rest with standard shells."
+L["att.ammo_ks23_flashbang_top.desc"] = "Зарядка первого патрона с светошумовым эффектом, а далее - стандартными."
 
 L["att.ammo_magnum.name.full"] = "Пули повышенного давления"
 L["att.ammo_magnum.name"] = "+P"
@@ -746,7 +746,7 @@ L["att.ammo_roulette.desc"] = "Смертельная игра на удачу. 
 
 L["att.ammo_rpg_improvised.name.full"] = "RPG-7 Импровизированная боеголовка"
 L["att.ammo_rpg_improvised.name"] = "Самоделка"
-L["att.ammo_rpg_improvised.desc"] = "Straight from the bargain bin."
+L["att.ammo_rpg_improvised.desc"] = "Родом из мусорного бака."
 
 L["att.ammo_rpg_mortar.name.full"] = "RPG-7 Миномётная боеголовка"
 L["att.ammo_rpg_mortar.name"] = "Миномёт"
@@ -808,11 +808,11 @@ L["att.ammo_shotgun_breach.desc"] = "Load the first round with a specialized bre
 
 L["att.ammo_stinger_saam.name.full"] = "FIM-92 Stinger Полуактивная ракета"
 L["att.ammo_stinger_saam.name"] = "Полуактив"
-L["att.ammo_stinger_saam.desc"] = "Powerful missiles that lock rapidly but require constant guidance."
+L["att.ammo_stinger_saam.desc"] = "Мощная ракета, которая быстро захватывает цель, но требует постоянного захвата цели."
 
 L["att.ammo_stinger_qaam.name.full"] = "FIM-92 Stinger Мобильная ракета"
 L["att.ammo_stinger_qaam.name"] = "Мобильность"
-L["att.ammo_stinger_qaam.desc"] = "Highly maneuverable missile with a short range and long lock time."
+L["att.ammo_stinger_qaam.desc"] = "Высокоманёвренная ракета малой дальности полета и с длительным захватом цели."
 
 L["att.ammo_stinger_4aam.name.full"] = "FIM-92 Stinger Quad Missiles"
 L["att.ammo_stinger_4aam.name"] = "4x"
@@ -930,11 +930,11 @@ L["att.melee_boost_int.desc"] = "Значительное улучшение т�
 L["att.melee_boost_lifesteal.name"] = "Вампир"
 L["att.melee_boost_lifesteal.desc"] = "Восстановление здоровья посредством урона."
 
-L["att.melee_boost_momentum.name"] = "Инерция"
-L["att.melee_boost_momentum.desc"] = "Restore perk charge by dealing damage."
+L["att.melee_boost_momentum.name"] = "Импульс"
+L["att.melee_boost_momentum.desc"] = "Восстановление умения посредством урона."
 
 L["att.melee_boost_afterimage.name"] = "Послеобраз"
-L["att.melee_boost_afterimage.desc"] = "Swing your weapon in a flash, landing the attack instantly."
+L["att.melee_boost_afterimage.desc"] = "Взмах оружия в мгновение ока, мгновенно атакуя."
 
 L["att.melee_boost_shock.name.full"] = "Штурмовик"
 L["att.melee_boost_shock.name"] = "Штурмовик"
