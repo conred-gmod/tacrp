@@ -12,6 +12,7 @@ SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "5Shotgun"
 
 SWEP.Description = "Accurate hunting shotgun with low damage."
+SWEP.Description_Quote = "\"If you can hear them but can't shoot them, you can probably grenade them.\"" --Hardcore Henry (2016) (It's not a Bekas in that exact scene, but one is used later on in the complex so uuuuhhhhh     explode)
 
 SWEP.Trivia_Caliber = "16 Gauge"
 SWEP.Trivia_Manufacturer = "Molot"
@@ -89,7 +90,7 @@ SWEP.Range_Min = 200 // distance for which to maintain maximum damage
 SWEP.Range_Max = 2000 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.47
-SWEP.ArmorBonus = 1.25
+SWEP.ArmorBonus = 0.25
 
 SWEP.Num = 6
 
