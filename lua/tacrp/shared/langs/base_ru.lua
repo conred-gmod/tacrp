@@ -1,3 +1,11 @@
+--[[ --
+    Над переводом работали:
+        - Flarky    <76561198281285885>
+        - Nork      <76561197980264412>
+        - Setlaser  <76561198059149900>
+        - Svorcer   <76561199157702911>
+--]] --
+
 L = {} -- Base Russian
 
 L["font.1"] = "Myriad Pro"
@@ -197,7 +205,7 @@ L["stat.meleeperkstr"] = "Сила"
 L["stat.meleeperkstr.desc"] = "Влияет на особенности и приёмы ближнего боя.\nВлияет на урон от перков и отбрасывание."
 L["stat.meleeperkagi"] = "Ловкость"
 L["stat.meleeperkagi.desc"] = "Влияет на особенности и приёмы ближнего боя.\nВлияет на передвижение при перке и интервал атаки."
-L["stat.meleeperkint"] = "Стратегия"
+L["stat.meleeperkint"] = "Тактика"
 L["stat.meleeperkint.desc"] = "Влияет на особенности и приёмы ближнего боя.\nВлияет на скорость возобновления перка и силу броска."
 
 L["rating.meleeattacktime"] = "Спешка"
@@ -438,6 +446,7 @@ L["hint.tac.spread_gauge"] = "датчик"
 L["hint.tac.magnifier"] = "увеличитель"
 L["hint.tac.cam_mode"] = "Режим камеры" -- Used for both Corner-Cam and Thermal Imager
 L["hint.tac.load_one"] = "Загрузить один патрон"
+L["hint.tac.spin_revolver"] = "Покрутить револьвер"
 
 L["hint.melee_lunge"] = "Прыжок"
 L["hint.melee_step"] = "Рывок"
