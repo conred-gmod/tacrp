@@ -97,7 +97,6 @@ TacRP.LoadAtt(ATT, "ammo_40mm_buck")
 ------------------------------
 ATT = {}
 
-ATT.AdminOnly = true
 ATT.PrintName = "CS Gas"
 ATT.FullName = "40mm CS Gas Grenades"
 
@@ -204,7 +203,6 @@ TacRP.LoadAtt(ATT, "ammo_40mm_impact")
 ------------------------------
 ATT = {}
 
-ATT.AdminOnly = true
 ATT.PrintName = "Concussion" --"LVG"
 ATT.FullName = "40mm Concussion Grenades"
 
@@ -267,7 +265,6 @@ TacRP.LoadAtt(ATT, "ammo_40mm_ratshot")
 ------------------------------
 ATT = {}
 
-ATT.AdminOnly = true
 ATT.PrintName = "Smoke"
 ATT.FullName = "40mm Smoke Grenades"
 
@@ -391,7 +388,6 @@ TacRP.LoadAtt(ATT, "ammo_amr_ratshot")
 -- #region ammo_amr_saphe
 ------------------------------
 ATT = {}
-ATT.AdminOnly = true
 
 ATT.PrintName = "SAPHE"
 ATT.FullName = "Semi-Armor-Piercing High-Explosive Rounds"
@@ -431,7 +427,6 @@ TacRP.LoadAtt(ATT, "ammo_amr_saphe")
 -- #region ammo_ks23_flashbang
 ------------------------------
 ATT = {}
-ATT.AdminOnly = true
 
 ATT.PrintName = "Zvezda"
 ATT.FullName = "KS-23 Zvezda Flash Shells"

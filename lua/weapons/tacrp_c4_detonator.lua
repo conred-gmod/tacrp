@@ -7,8 +7,6 @@ AddCSLuaFile()
 SWEP.PrintName = "C4 Detonator"
 SWEP.Category = "Tactical RP (Special)"
 
-SWEP.AdminOnly = true
-
 SWEP.NoAimAssist = true
 
 SWEP.SubCatTier = "9Special"

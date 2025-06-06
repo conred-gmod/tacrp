@@ -1,4 +1,4 @@
-ATT.AdminOnly = true
+ATT.AdminOnly = false
 
 ATT.PrintName = "Ninja"
 ATT.Icon = Material("entities/tacrp_att_melee_spec_ninja.png", "mips smooth")
