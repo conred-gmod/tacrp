@@ -19,10 +19,13 @@ hook.Add("PlayerBindPress", "TacRP_Binds", function(ply, bind, pressed, code)
         return true
     end
 
-    if TacRP.ConVars["toggletactical"]:GetBool() and bind == "impulse 100" and wpn:GetValue("CanToggle") and (!GetConVar("mp_flashlight"):GetBool() or (TacRP.ConVars["flashlight_alt"]:GetBool() and ply:KeyDown(IN_WALK)) or (!TacRP.ConVars["flashlight_alt"]:GetBool() and !ply:KeyDown(IN_WALK))) then
-        TacRP.KeyPressed_Tactical = pressed
+    if TacRP.ConVars["toggletactical"]:GetBool() and bind == "impulse 100" and wpn:GetValue("CanToggle") then
+        local use_engine_flashlight = TacRP.ConVars["flashlight_alt"]:GetBool() ~= ply:KeyDown(IN_WALK)
 
-        return true
+        if not GetConVar("mp_flashlight"):GetBool() or not use_engine_flashlight then
+            TacRP.KeyPressed_Tactical = pressed
+            return true
+        end
     end
 end)
 
