@@ -7,7 +7,7 @@ ENT.RenderGroup              = RENDERGROUP_TRANSLUCENT
 ENT.PrintName                = "Nuclear Device (Ammo)"
 ENT.Category                 = "Tactical RP"
 
-ENT.AdminOnly = false
+ENT.AdminOnly                = true
 ENT.Spawnable                = true
 ENT.Model                    = "models/weapons/tacint/props_misc/briefcase_bomb-1.mdl"
 
